@@ -26,11 +26,12 @@ public class Main {
                 + minPayments + " рублей." +
                 " Максимальная сумма трат за неделю составила "
                 + maxPayments + " рублей");
+
         System.out.println("Задача 3");
         int[] week3 = {10874, 18490, 14028, 15274, 12038};
         double sum3 = 0d;
         for (int index : week3) {
-            sum3 += index / 5;
+            sum3 += index / week3.length;// исправил , не могу ни как привыкнуть , избавляться от чисел
         }
         System.out.println("Средняя сумма трат за месяц составила " + sum3 + " рублей");
         System.out.println("Задача 4");
